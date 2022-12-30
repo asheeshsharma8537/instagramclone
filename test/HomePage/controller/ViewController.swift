@@ -39,7 +39,7 @@ class ViewController: UIViewController, Nav {
     func navigateProfile() {
         guard let profileVC = UIStoryboard(name: "Profile", bundle: nil).instantiateViewController(withIdentifier: "ProfileViewController") as? ProfileViewController else {return}
         self.navigationController?.pushViewController(profileVC, animated: true)
-        print("hiiii")
+        print("hi")
     }
     
     func navigateLikes() {
