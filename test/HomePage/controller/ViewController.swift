@@ -47,6 +47,7 @@ class ViewController: UIViewController, Nav {
         self.navigationController?.pushViewController(likesVC, animated: true)
 //        self.presentM
         print("hii")
+        print("Changes has made")
     }
     
     
